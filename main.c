@@ -46,7 +46,7 @@ int sywsh_cd(char **args)
 
 int sywsh_help(char **args)
 {
-    puts("This is Mt's shell");
+    puts("This is Syw's shell");
     puts("Here are some built in cmd:");
     for (int i = 0; i < sywsh_builtin_nums(); i ++)
         printf("%s\n", builtin_cmd[i]);

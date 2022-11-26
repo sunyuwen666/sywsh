@@ -135,7 +135,7 @@ void sywsh_loop()
     {
         char path[100];
         getcwd(path, 100);
-        char now[200] = "[sywsh ";
+        char now[200] = "[sywsh:";
         strcat(now, path);
         strcat(now, " ]# ");
         printf("%s", now);
